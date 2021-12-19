@@ -12,7 +12,7 @@ def get_instance_ids(client):
                 instance_ids_to_return.append({"id": instance["InstanceId"], "ip": instance["PublicIpAddress"]})
     return instance_ids_to_return
  
- print(def get_instance_ids(client))
+print(def get_instance_ids(client))
    
 ec2 = boto3.resource('ec2') 
    
